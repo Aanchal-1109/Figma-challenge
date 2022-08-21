@@ -47,11 +47,13 @@ span {
   font-size: 0.9rem;
   height: 2em;
   margin-top: 0em;
+  text-decoration: none;
 }
 .nav-elements {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  text-decoration: none;
 }
 ul {
   list-style: none;
@@ -206,21 +208,26 @@ h3 {
   background: linear-gradient(to right,#2F80ED,#7BAEF4,#96BFF6,#56CCF2);
   border-radius: 0.6em;
   color: white;
-  padding-right: 1em;
+  padding-right: 2em;
   justify-content: flex-end;
 flex-direction: column;
   margin-top: 3em;
+}
+.frontend-p2 {
+ display: flex;
+ flex-direction: column;
+ width: 150%;
 }
 
 .fp-2 {
   padding-left: 1.7em;
 }
 .frontend-p2 {
- 
   font-size: 1.2rem;
   margin-right: 13em;
   padding: 0em 10em 0em 0em;
 }
+
 .frontend-para-2 {
   
   padding-right: 5em;
@@ -277,5 +284,4 @@ flex-direction: column;
 }
 .html_css p {
   margin: 0em 45em 0em 4em ;
-
 }
